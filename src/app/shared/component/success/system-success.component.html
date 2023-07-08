@@ -1,0 +1,22 @@
+<main>
+  <div class="container">
+    <app-header></app-header>
+    <div class="content">
+      <div class="content-main">
+        <div class="notification-box">
+          <h1 class="title">
+            {{ message }}
+          </h1>
+          <button
+            type="button"
+            class="btn btn-primary btn-sm"
+            (click)="toList()"
+          >
+            OK
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <app-footer></app-footer>
+</main>
